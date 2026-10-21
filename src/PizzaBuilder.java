@@ -20,7 +20,6 @@ public class PizzaBuilder {
         return this;
     }
 
-    // Convenience methods for the 16 standard toppings
     public PizzaBuilder addPepperoni() { return addTopping("Pepperoni"); }
     public PizzaBuilder addSausage() { return addTopping("Sausage"); }
     public PizzaBuilder addMushrooms() { return addTopping("Mushrooms"); }

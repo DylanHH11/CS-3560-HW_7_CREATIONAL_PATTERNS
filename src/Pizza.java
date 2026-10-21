@@ -6,7 +6,6 @@ public class Pizza {
     private final String size;
     private final List<String> toppings;
 
-    // Package-private constructor called only by PizzaBuilder
     Pizza(String chain, String size, List<String> toppings) {
         this.chain = chain;
         this.size = size;

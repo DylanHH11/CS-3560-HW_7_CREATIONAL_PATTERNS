@@ -1,6 +1,5 @@
 public class PizzaDriver {
     public static void main(String[] args) {
-        // Instantiate the chains
         PizzaHut pizzaHut = new PizzaHut();
         LittleCaesars littleCaesars = new LittleCaesars();
         Dominos dominos = new Dominos();

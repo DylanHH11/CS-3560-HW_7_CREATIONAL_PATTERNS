@@ -9,7 +9,6 @@ public abstract class PizzaChain {
         return chainName;
     }
 
-    // Each chain provides its builder to construct pizzas
     public PizzaBuilder getPizzaBuilder() {
         return new PizzaBuilder(chainName);
     }
